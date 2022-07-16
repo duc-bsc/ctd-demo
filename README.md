@@ -1,2 +1,2 @@
-# ctd-demo
+# demo-project
 Created with CodeSandbox

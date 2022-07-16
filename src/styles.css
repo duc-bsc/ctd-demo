@@ -1,0 +1,144 @@
+:root {
+  --black-color: #2a2a2a;
+}
+
+html {
+  font-family: "Roboto Mono", monospace;
+  /* talk about this */
+  scroll-behavior: smooth;
+  background: antiquewhite;
+}
+
+/* talk about this */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--black-color);
+  transition: opacity 500ms;
+}
+
+/* utils */
+
+.list-style-none {
+  list-style: none;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-15 {
+  gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.min-height-100vh {
+  min-height: 100vh;
+}
+
+.px-1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-2 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.px-3 {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.border-bottom {
+  border-bottom: solid 1px var(--black-color);
+}
+
+.border {
+  border: solid 1px var(--black-color);
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.max-width-500 {
+  max-width: 500px;
+}
+
+/* components */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: antiquewhite;
+  max-height: 50px;
+}
+
+.nav ul li a {
+  padding: 4px 8px;
+  color: var(--black-color);
+  /* transition: background 500ms ease-in-out, color 500ms ease-in-out; */
+}
+
+.nav ul li a:hover {
+  color: antiquewhite;
+  background: var(--black-color);
+}
+
+.logo {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: antiquewhite;
+  background: var(--black-color);
+  padding: 0.5rem 1rem;
+}
+
+#about-me p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.border-left {
+  border-left: 1px solid var(--black-color);
+}
+
+.border-right {
+  border-right: 1px solid var(--black-color);
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--black-color);
+  color: antiquewhite;
+  background-color: var(--black-color);
+}
